@@ -1,11 +1,11 @@
 /* Общие стили */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #2C3E50;
-    background-color: #F4F4F4;
+    color: #1B5E20;
+    background-color: #FAFAFA;
 }
 
 .container {
@@ -15,8 +15,9 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Helvetica', sans-serif;
-    color: #1E3A3A;
+    font-family: 'Poppins', sans-serif;
+    color: #2E7D32;
+    margin-bottom: 20px;
 }
 
 .hero {
@@ -40,11 +41,17 @@ h1, h2, h3 {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #D1E7DD;
-    color: #1E3A3A;
+    background-color: #81D4FA;
+    color: #1B5E20;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2E7D32;
+    color: white;
 }
 
 .split-layout {
@@ -61,6 +68,7 @@ h1, h2, h3 {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .service-grid, .project-grid, .testimonial-grid {
@@ -70,7 +78,7 @@ h1, h2, h3 {
 }
 
 .service-card, .project-card, .testimonial-card {
-    background-color: white;
+    background-color: #F5F5DC;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -84,22 +92,27 @@ h1, h2, h3 {
 
 .contact-section input, .contact-section textarea {
     padding: 10px;
-    border: 1px solid #D1E7DD;
+    border: 1px solid #81D4FA;
     border-radius: 5px;
 }
 
 .contact-section button {
     padding: 10px;
-    background-color: #1E3A3A;
+    background-color: #2E7D32;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #1B5E20;
 }
 
 footer {
-    background-color: #1E3A3A;
+    background-color: #2E7D32;
     text-align: center;
     padding: 20px 0;
-    color: #D1E7DD;
+    color: #FAFAFA;
 }
