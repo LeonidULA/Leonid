@@ -1,0 +1,105 @@
+/* Общие стили */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2C3E50;
+    background-color: #F4F4F4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+    color: #1E3A3A;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D1E7DD;
+    color: #1E3A3A;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.split-layout {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-grid, .project-grid, .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service-card, .project-card, .testimonial-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    border: 1px solid #D1E7DD;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px;
+    background-color: #1E3A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1E3A3A;
+    text-align: center;
+    padding: 20px 0;
+    color: #D1E7DD;
+}
